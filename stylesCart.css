@@ -1,0 +1,162 @@
+/* **********
+Travail de Romain
+********** */
+
+/* Florine --> */
+:root {
+    --white : #F8EDE3;
+    --light-blue:#AFD6F5;
+    --medium-light-blue:#4987AF;
+    --medium-dark-blue:#164F79;
+    --dark-blue:#082B47;
+    --dark:#05101B;
+    --fonts: Kalam;
+}
+/* <-- Florine */
+
+body {
+    margin: 0;
+    color: var(--white);
+    font-size: 17px;
+    font-style: var(--fonts);
+}
+/* Lenny --> */
+.cart-header {
+    background-image:url("images/hogwarts-castle.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-size:30px;
+    font-weight: bold;
+    padding:82px;
+    text-align: center;
+}
+/* <-- Lenny */
+
+.body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: var(--light-blue);
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.cart-container {
+    width: 66%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--medium-dark-blue);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.price {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.text-price {
+    margin: 0 35px 0 35px; 
+}
+
+.img-product {
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+}
+
+.icons {
+    width: 35px;
+    height: 35px;
+}
+
+form {
+    width: 100%;
+}
+
+.button-less-more-delete {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    height: 35px;
+    font-family: var(--fonts);
+    background-color: var(--white);
+}
+
+.submit {
+    width: 100px;
+}
+
+.icon-button {
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-price-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--medium-dark-blue);
+    border-radius: 10px;
+    width: 30%;
+    height: 150px;
+}
+
+.total-price-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+}
+
+.pay {
+    width: 200px;
+}
+
+#prixTotal {
+    color: red;
+}

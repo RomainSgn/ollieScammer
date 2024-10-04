@@ -1,0 +1,25 @@
+/* Page de Florine */
+
+.ref-list {
+        margin-top: 2em;
+        padding: 3em;
+
+    }
+
+    .ref-item {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0.5em;
+        font-size: 20px;
+    }
+    
+    .ref-item a {
+        text-decoration: none;
+        color: var(--dark);
+    }
+
+    .ref-item a:visited {
+        text-decoration: none;
+        color: var(--dark-blue);
+    }

@@ -1,0 +1,250 @@
+<!doctype html>
+
+<!-- **********
+Page de Romain
+********** -->
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="stylesCart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Satisfy&display=swap" rel="stylesheet">
+    <title>OlliScammer</title>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="logo">
+            <img src="images/logo.png"  alt="Logo" width="20%"/>
+        </div>
+        <ul>
+            <li> <a href="./index.html">Store</a> </li>
+            <li> <a href="./indexCart.hmlt">Cart</a></li>
+            <li> <a href="./team.html">Team</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="cart-header">
+    <h1>Panier</h1>
+</div>
+<div class="body-container">
+    <div class="cart-container">
+        <div class="product">
+            <img src="images/Items/Baguettes.jpg" alt="3 baguettes magique" class="img-product">
+            <div class="price">
+                <div class="text-price">
+                    <h2>Lot de 3 baguettes magiques</h2>
+                    <p>Superbe lot de 3 baguettes magiques fonctionnelles qui vous donneront pleinement satisfaction pour l'apprentissage de la magie (le sorcier choisi toujours sa baguette).</p>
+                </div>
+                <h3>149,99€</h3>
+                <form id="baguette">
+                    <div class="button-less-more-delete">
+                        <label><h4>Quantité : <input type="number" name ="baguetteQuantity" id="baguetteQuantity" value="0"/></h4></label>
+                        <button id="baguettesCacul"class="submit">Calculer</button>
+                        <button class="icon-button" id="trashBaguette"><img src="images/Icons/trash.svg" alt="bouton supprimer" class="icons"></button>
+                        <h3 id="totalBaguettes">0.00€</h3>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="product">
+            <img src="images/Items/balai.jpg" alt="balai volant" class="img-product">
+            <div class="price">
+                <div class="text-price">
+                    <h2>Balai (qui vole)</h2>
+                    <p>Magnifique balai volant "Trinbus 2000" qui rendra vos voyages plus rapide et plus sûrs (sert aussi à balayer).</p>
+                </div>
+                <h3>299.99€</h3>
+                <form id="balai">
+                    <div class="button-less-more-delete">
+                        <label><h4>Quantité : <input type="number" name ="balaiQuantity" id="balaiQuantity" value="0"/></h4></label>
+                        <button class="submit">Calculer</button>
+                        <button class="icon-button" id="trashBalai"><img src="images/Icons/trash.svg" alt="bouton supprimer" class="icons"></button>
+                        <h3 id="totalBalai">0.00€</h3>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="product">
+            <img src="images/Items/Patronus.jpg" alt="patronus cerf" class="img-product">
+            <div class="price">
+                <div class="text-price">
+                    <h2>Patronus</h2>
+                    <p>Magnifique patronus qui fera un excellent animal de compagnie.</p>
+                </div>
+                <h3>99,99€</h3>
+                <form id="patronus">
+                    <div class="button-less-more-delete">
+                        <label><h4>Quantité : <input type="number" name ="patronusQuantity" id="patronusQuantity" value="0"/></h4></label>
+                        <button class="submit">Calculer</button>
+                        <button class="icon-button" id="trashPatronus"><img src="images/Icons/trash.svg" alt="bouton supprimer" class="icons"></button>
+                        <h3 id="totalPatronus">0.00€</h3>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="total-price-container">
+        <div class="total-price">
+            <h2 id="prixTotal">0.00€</h2>
+        </div>
+        <div class="total-price-buttons">
+            <button class="icon-button"><img src="images/Icons/trash.svg" alt="bouton supprimer" class="icons" id="trashTotal"></button>
+            <button id="calculerTotal">Calculer</button>
+            <button class="pay">Payer</button>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="form-container">
+            <h2>Ne ratez aucune offres !</h2>
+            <label for="email" ></label>
+            <input id="email" name="email" type="email" placeholder="Email">
+        </div>
+        <div class="coordonnees-container">
+            <div class="coordonnées">
+                <h3>Nos coordonnées</h3>
+                <p>00 44 06 24 42</p>
+                <p>OlliScammer@owl.com</p>
+                <p>7 chemin de traverse Londres</p>
+            </div>
+            <div class="coordonnees SAV">
+                <h3>Horaires SAV</h3>
+                <p>Lundi : fermé</p>
+                <p>Mardi : fermé</p>
+                <p>Mercredi : 03h00 - 03h05</p>
+                <p>Jeudi : fermé</p>
+                <p>Vendredi : fermé</p>
+                <p>Samedi : fermé</p>
+                <p>dimanche : fermé</p>
+            </div>
+            <div class="coordonnees reseaux">
+                <h3>Nos réseaux</h3>
+                <a href="#"><img src="images/Icons/facebook.svg" alt="logo facebook"></a>
+                <a href="#"><img src="images/Icons/Tiktok.svg" alt="logo Tiktok"></a>
+                <a href="#"><img src="images/Icons/instagram.svg" alt="logo instagram"></a>
+            </div>
+        </div>
+    </div>
+    <div class="final-container">
+        <div class="coordonnees paiement">
+            <img src="images/Icons/amex.svg" alt="logo American Express">
+            <img src="images/Icons/applePay.svg" alt="logo Apple Pay">
+            <img src="images/Icons/mastercard.svg" alt="logo Mastercard">
+            <img src="images/Icons/paypal.svg" alt="logo Paypal">
+            <img src="images/Icons/visa.svg" alt="logo Visa">
+        </div>               
+        <div class="mention-legale-container">
+            <a href="./copyright.html" class="mention-legale">Tous les copyrights - © 2024 OlliScammer</a>
+        </div>
+    </div>
+</footer>
+
+<script>    
+
+    let priceBaguettes = 149.99;
+    let priceBalai = 299.99;
+    let pricePatronus = 99.99;
+
+    let totalPriceBaguettesElement = document.querySelector('#totalBaguettes');
+    let totalPriceBalaiElement = document.querySelector('#totalBalai');
+    let totalPricePatronusElement = document.querySelector('#totalPatronus');
+    let totalPriceElement = document.querySelector('#prixTotal');
+
+
+    const baguetteQuantity = document.querySelector('#baguetteQuantity');
+    const trashBaguette = document.querySelector('#trashBaguette');
+    trashBaguette.addEventListener("click", (event) => {
+        event.preventDefault();
+        let totalPriceBaguettes = 0;
+        baguetteQuantity.value = 0;   
+        totalPriceBaguettesElement.innerHTML = totalPriceBaguettes.toFixed(2) + "€";
+    });
+
+    const balaiQuantity = document.querySelector('#balaiQuantity');
+    const trashBalai = document.querySelector('#trashBalai');
+    trashBalai.addEventListener("click", (event) => {
+        event.preventDefault();
+        let totalPriceBalai = 0;
+        balaiQuantity.value = 0;
+        totalPriceBalaiElement.innerHTML = totalPriceBalai.toFixed(2) + "€";
+    });
+
+    const patronusQuantity = document.querySelector('#patronusQuantity');
+    const trashPatronus = document.querySelector('#trashPatronus');
+    trashPatronus.addEventListener("click", (event) => {
+        event.preventDefault();
+        let totalPricePatronus = 0;
+        patronusQuantity.value = 0;
+        totalPricePatronusElement.innerHTML = totalPricePatronus.toFixed(2) + "€";
+    });
+
+    const trashTotal = document.querySelector('#trashTotal');
+    trashTotal.addEventListener("click", (event) => {
+        event.preventDefault();
+        let totalPriceBaguettes = 0;
+        let totalPriceBalai = 0;
+        let totalPricePatronus = 0;
+        let priceTotal = 0;
+        baguetteQuantity.value = 0;
+        balaiQuantity.value = 0;
+        patronusQuantity.value = 0;
+        totalPriceBaguettesElement.innerHTML = totalPriceBaguettes.toFixed(2) + "€";
+        totalPriceBalaiElement.innerHTML = totalPriceBalai.toFixed(2) + "€";
+        totalPricePatronusElement.innerHTML = totalPricePatronus.toFixed(2) + "€";
+        totalPriceElement.innerHTML = priceTotal.toFixed(2) + "€";
+        document.getElementById('prixTotal').style.color = 'red';
+    });
+
+    const baguetteForm = document.querySelector('#baguette');
+    baguetteForm.addEventListener("click", (event) => {
+        event.preventDefault();
+        let quantiteBaguettes = parseInt(document.getElementById("baguetteQuantity").value);
+        let totalPriceBaguettes = priceBaguettes * quantiteBaguettes;
+        totalPriceBaguettesElement.innerHTML = totalPriceBaguettes.toFixed(2) + "€";
+    })
+
+    const balaiForm = document.querySelector('#balai');
+    balaiForm.addEventListener("click", (event) => {
+        event.preventDefault();
+        let quantiteBalai = parseInt(document.getElementById("balaiQuantity").value);
+        let totalPriceBalai = priceBalai * quantiteBalai;
+        totalPriceBalaiElement.innerHTML = totalPriceBalai.toFixed(2) + "€";
+    })
+
+    const patronusForm = document.querySelector('#patronus');
+    patronusForm.addEventListener("click", (event) => {
+        event.preventDefault();
+        let quantitePatronus = parseInt(document.getElementById("patronusQuantity").value);
+        let totalPricePatronus = pricePatronus * quantitePatronus;
+        totalPricePatronusElement.innerHTML = totalPricePatronus.toFixed(2) + "€"; 
+    })    
+
+    const calculerTotal = document.querySelector('#calculerTotal');
+    calculerTotal.addEventListener("click", (event) => {
+        event.preventDefault();
+        let totalPriceBaguettes = parseFloat(totalPriceBaguettesElement.innerHTML);
+        let totalPriceBalai = parseFloat(totalPriceBalaiElement.innerHTML);
+        let totalPricePatronus = parseFloat(totalPricePatronusElement.innerHTML);
+        let total = totalPriceBaguettes + totalPriceBalai + totalPricePatronus;
+        document.getElementById("prixTotal").innerHTML = total.toFixed(2) + "€";
+        changecouleur(total);
+    })
+
+    function changecouleur(prixTotal) {
+    if (prixTotal > 250 && prixTotal <= 750) {
+        document.getElementById('prixTotal').style.color = 'orange';
+    } else {
+        document.getElementById('prixTotal').style.color = '#9df773';
+    }}
+
+</script>
+</body>
+</html>

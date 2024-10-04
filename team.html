@@ -1,0 +1,141 @@
+<!--Fais par Lenny-->
+
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet"/>
+    <link href="team.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Satisfy&display=swap" rel="stylesheet">
+    <script src="JS/team.js"></script>
+    <title>OlliScammer Team</title>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="logo">
+            <img src="images/logo.png"  alt="Logo" width="20%"/>
+        </div>
+        <ul>
+            <li> <a href="./index.html">Store</a> </li>
+            <li> <a href="./indexCart.html">Cart</a></li>
+            <li> <a href="./team.html">Team</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="team">
+    <div class="hero">
+        <h1>L'équipe de Olliscammer </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet architecto assumenda cupiditate dicta distinctio, exercitationem incidunt laboriosam maiores maxime mollitia non officiis omnis quae quia quo repudiandae, temporibus veniam!</p>
+    </div>
+    <div class="containerButtonTeam">
+        <button type="submit" id="edit-button">Edit</button>
+        <button type="submit" id="end-editing">Done</button>
+        <button type="button" id="plus-edit" onclick="duplicate()">plus</button>
+        <button type="button" id="remove-edit" onclick="remove()">remove</button>
+    </div>
+    <div id="teamMember">                           <!--Div où on va cloner-->
+
+        <div class="member" id="exemple">           <!--Div à cloner-->
+            <img src="images/dumbledore.jpg" alt="Doubledoor look alike portrait" />
+            <div>
+                <h2 class="editName">Albus Doubledoor </h2>
+                <span class="editProf">CEO</span>
+                <p class="editText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, ipsa, praesentium. Aut dolor et neque nulla quis quo ullam? Delectus dicta dolorem minus molestias nobis odio perspiciatis praesentium provident repudiandae.</p>
+            </div>
+        </div>
+        
+        <div class="member">
+            <img src="images/harrypotter.jpg" alt="Harry Porteur portrait" />
+            <div id="member2">
+                <h2 class="editName">Harry Porteur </h2>
+                <span class="editProf">Directeur de la publicité</span>
+                <p class="editText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, ipsa, praesentium. Aut dolor et neque nulla quis quo ullam? Delectus dicta dolorem minus molestias nobis odio perspiciatis praesentium provident repudiandae.</p>
+            </div>
+
+        </div>
+
+        <div class="member">
+            <img src="images/hermione.jpeg" alt="Harmonie Grange portrait" />
+            <div >
+            <h2 class="editName">Harmonie Grange</h2>
+            <span class="editProf">Directrice des ventes</span>
+            <p class="editText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, ipsa, praesentium. Aut dolor et neque nulla quis quo ullam? Delectus dicta dolorem minus molestias nobis odio perspiciatis praesentium provident repudiandae.</p>
+            </div>
+        </div>
+        <div class="member">
+            <img src="images/ron.jpg" alt="Ron Whistle portrait" />
+            <div >
+            <h2 class="editName">Ron Whistle </h2>
+            <span class="editProf">Directeur Commercial</span>
+            <p class="editText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, ipsa, praesentium. Aut dolor et neque nulla quis quo ullam? Delectus dicta dolorem minus molestias nobis odio perspiciatis praesentium provident repudiandae.</p>
+            </div>
+        </div>
+        <div class="member">
+            <img src="images/Hagrid.jpg" alt="Harride portrait" />
+            <div>
+            <h2 class="editName">Harride </h2>
+            <span class="editProf">Concierge</span>
+            <p class="editText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, ipsa, praesentium. Aut dolor et neque nulla quis quo ullam? Delectus dicta dolorem minus molestias nobis odio perspiciatis praesentium provident repudiandae.</p>
+            </div>
+        </div>
+        <div class="member">
+            <img src="images/voldemort.jpg" alt="Voldevie portrait" />
+            <div>
+            <h2 class="editName">Voldevie </h2>
+            <span class="editProf">Emploi Fictif</span>
+            <p class="editText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, ipsa, praesentium. Aut dolor et neque nulla quis quo ullam? Delectus dicta dolorem minus molestias nobis odio perspiciatis praesentium provident repudiandae.</p>
+            </div>
+        </div>
+
+    </div>
+</main>
+<footer>
+    <div class="container">
+        <div class="form-container">
+            <h2>Ne ratez aucune offres !</h2>
+            <label for="email" ></label>
+            <input id="email" name="email" type="email" placeholder="Email">
+        </div>
+        <div class="coordonnees-container">
+            <div class="coordonnées">
+                <h3>Nos coordonnées</h3>
+                <p>00 44 06 24 42</p>
+                <p>OlliScammer@owl.com</p>
+                <p>7 chemin de traverse Londres</p>
+            </div>
+            <div class="coordonnees SAV">
+                <h3>Horaires SAV</h3>
+                <p>Lundi : fermé</p>
+                <p>Mardi : fermé</p>
+                <p>Mercredi : 03h00 - 03h05</p>
+                <p>Jeudi : fermé</p>
+                <p>Vendredi : fermé</p>
+                <p>Samedi : fermé</p>
+                <p>dimanche : fermé</p>
+            </div>
+            <div class="coordonnees reseaux">
+                <h3>Nos réseaux</h3>
+                <a href="#"><img src="images/Icons/facebook.svg" alt="logo facebook"></a>
+                <a href="#"><img src="images/Icons/Tiktok.svg" alt="logo Tiktok"></a>
+                <a href="#"><img src="images/Icons/instagram.svg" alt="logo instagram"></a>
+            </div>
+        </div>
+    </div>
+    <div class="final-container">
+        <div class="coordonnees paiement">
+            <img src="images/Icons/amex.svg" alt="logo American Express">
+            <img src="images/Icons/applePay.svg" alt="logo Apple pay">
+            <img src="images/Icons/mastercard.svg" alt="logo Mastercard">
+            <img src="images/Icons/paypal.svg" alt="logo paypal">
+            <img src="images/Icons/visa.svg" alt="logo Visa">
+        </div>
+        <div class="mention-legale-container">
+            <a href="#" class="mention-legale">Tous les copyrights © 2024 OlliScammer</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

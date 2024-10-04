@@ -1,0 +1,120 @@
+/* Page de Florine */
+
+.store-container {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.store-cart-title {
+  display: none;
+}
+
+.store-title, .store-cart-title {
+    color: var(--dark-blue);
+    text-transform: uppercase;
+    font-size: 45px;
+    text-align: center;
+    font-weight: normal;
+  }
+  
+  .store-block {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items:flex-end;
+    padding: 3em 0em;
+  }
+  
+  .store-section-title {
+    color: var(--medium-dark-blue);
+    margin: 0.2em;
+    text-align: center;
+  }
+  
+  .store-section-container, .store-cart-section-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .store-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    width: 300px;
+    padding: 1em;
+    padding: bottom 2em;
+  }
+  
+  .store-section .store-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+  }
+  .store-section .store-circle img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20%;
+  }
+  
+  .store-container p {
+    color: var(--dark-blue);
+    display: flex;
+    flex-flow: column nowrap;
+    width: 280px;
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .store-buttons-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .store-buttons-container button, .store-cart-section-container button{
+    display: flex;
+    font-family: var(--fonts);
+    font-size: 15px;
+    align-items: center;
+    color: var(--white);
+    border-color: var(--dark);
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .store-buttons-container button {
+    background-color: var(--medium-light-blue);
+  }
+
+  .store-cart-section-container button {
+    display: none;
+    padding: 1em;
+    border-radius: 8px;
+    background-color: var(--medium-dark-blue);
+  }
+
+  .store-buttons-container button img{
+    display: flex;
+    width: 25px;
+    height: 25px;
+  }
+
+  .store-number {
+    display: flex;
+    align-items: center;
+  }
+
+  .store-price {
+    font-size: 20px;
+  }
+
+

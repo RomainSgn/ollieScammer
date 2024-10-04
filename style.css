@@ -1,0 +1,190 @@
+/* Curseur et variables par Florine */
+
+* {
+    cursor: url(./images/Icons/icons8-wand-32.png), auto;
+  }
+
+:root {
+    --white : #F8EDE3;
+    --light-blue:#AFD6F5;
+    --medium-light-blue:#4987AF;
+    --medium-dark-blue:#164F79;
+    --dark-blue:#082B47;
+    --dark:#05101B;
+    --fonts: Kalam;
+}
+a:hover,button:hover {
+    cursor: pointer;
+
+}
+.kalam-light {
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .kalam-regular {
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .kalam-bold {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+body{
+background-color:var(--light-blue) ;
+    margin: 0;
+    font-family: var(--fonts);
+    font-size: 10px;
+}
+/*Header-->    fait par Lenny */
+header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: var(--dark);
+    padding-bottom: 2em;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+    flex-wrap: wrap;
+    font-size:40px;
+
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    background-color: #05101B;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+    color: #F8EDE3;
+    padding:40px;
+}
+nav a:active{
+    background-color: #4987AF;
+    padding: 35px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 24px;
+}
+.hero{
+    background-image:url("images/hogwarts-castle.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-size:30px;
+    font-weight: bold;
+    padding:82px;
+    text-align: center;
+}
+/*<--Header*/
+
+
+
+/* footer (Réaliser par Romain) */
+
+.container {
+    display: flex;
+    background-color: var(--dark);
+    color: var(--white);
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+h2 {
+    font-size: 40px;
+}
+
+
+input[type="email"] {
+    width: 25%;
+    height: 32px;
+}
+
+.text-form {
+    margin-bottom: 5px;
+}
+
+.coordonnees-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.coordonnees img {
+    height: 50px;
+    width: 50px;
+}
+
+.final-container {
+    background-color: var(--dark);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.paiement {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+.mention-legale-container {
+    margin-right: 10px;
+}
+
+.mention-legale {
+    text-decoration: none;
+    color: var(--white);
+}
+
+/* footer */
+
+
+@media only screen and (max-width: 768px) {
+    nav ul{
+        flex-direction: column;
+    }
+}
